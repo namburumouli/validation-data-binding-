@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar!!.title="Lotus App"
+        supportActionBar!!.title="dummy app"
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         setupListeners()
